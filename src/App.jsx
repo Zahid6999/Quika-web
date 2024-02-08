@@ -4,6 +4,7 @@ import Business from "./components/Business/Business";
 import IntroduceHero from "./components/IntroduceHero/IntroduceHero";
 import CardScroll from "./components/CardScroll/CardScroll";
 import MonthlyPlan from "./components/MonthlyPlan/MonthlyPlan";
+import ReviewPublic from "./components/ReviewPublic/ReviewPublic";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <IntroduceHero />
       <CardScroll />
       <MonthlyPlan />
+      <ReviewPublic />
     </div>
   );
 }

@@ -71,7 +71,7 @@ const CardScroll = () => {
   const lenis = new Lenis();
 
   lenis.on("scroll", (e) => {
-    console.log(e);
+    // console.log(e);
   });
 
   function raf(time) {
