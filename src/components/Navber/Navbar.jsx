@@ -41,7 +41,7 @@ const Navbar = () => {
         <div className="navbar-start ">
           <img src={logo} alt="Logo" />
           <div className="dropdown">
-            <div tabIndex={0} role="button" className=" lg:hidden">
+            <div tabIndex={0} role="button" className=" md:hidden">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="40"
@@ -73,7 +73,7 @@ const Navbar = () => {
             </ul>
           </div>
         </div>
-        <div className="navbar-center hidden lg:flex">
+        <div className="navbar-center hidden md:flex">
           <ul className="menu menu-horizontal px-1">{navList}</ul>
         </div>
         <div className="navbar-end gap-4 ">

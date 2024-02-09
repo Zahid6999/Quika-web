@@ -98,7 +98,7 @@ const MonthlyPlan = () => {
           height="99"
           viewBox="0 0 194 99"
           fill="none"
-          className="absolute hidden xl:block xl:left-12 3xl:left-[1050px] -top-4  "
+          className="absolute hidden xl:block xl:left-[780px] 3xl:left-[1050px] -top-4  "
         >
           <path
             fillRule="evenodd"
@@ -108,7 +108,7 @@ const MonthlyPlan = () => {
           />
         </svg>
       </h3>
-      <p className="text-base xl:text-2xl font-medium leading-[24.8px] xl:leading-[37.2px]  font-[inter] text-center md:max-w-[848px] md:mx-auto mt-[13px]">
+      <p className="text-base xl:text-2xl font-medium leading-[24.8px] xl:leading-[37.2px]  font-[inter] text-center md:max-w-[848px] md:mx-auto mt-[13px] px-5 md:px-10 ">
         ​This is your Price List section introductory paragraph. It’s an ideal
         place to introduce the types of paid services or plans available, and
         underline any important or unique features for your visitors.
